@@ -1,14 +1,13 @@
 {
   "expo": {
-    "name": "gps",
-    "slug": "snack-18a69504-afec-4653-86d4-e57a4609cf1b",
+    "name": "GPS Locator",
+    "slug": "my-gps-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,10 +19,15 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.jobnolta.gpsapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aebd82d7-7652-4da5-854a-90e2f448e724"
+      }
     }
   }
 }
