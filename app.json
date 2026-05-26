@@ -9,7 +9,8 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.jobnolta.test"
+      "package": "com.jobnolta.test",
+      "gradleArguments": ["-PreactNativeArchitectures=armeabi-v7a,arm64-v8a"]
     },
     "extra": {
       "eas": {
