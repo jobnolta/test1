@@ -7,20 +7,19 @@
       "developmentClient": true,
       "distribution": "internal",
       "android": {
-        "buildType": "apk",
-        "splitPerCpuArchitecture": true      }
+        "buildType": "apk"
+      }
     },
     "preview": {
       "distribution": "internal",
       "credentialsSource": "remote",
       "android": {
-        "buildType": "apk",
-        "splitPerCpuArchitecture": true      }
+        "buildType": "apk"
+      }
     },
     "production": {
       "android": {
-        "buildType": "apk",
-        "splitPerCpuArchitecture": true
+        "buildType": "apk"
       }
     }
   }
